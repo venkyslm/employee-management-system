@@ -1,90 +1,305 @@
-1. Project Overview
 # Employee Management System
 
-A full-stack Employee Management System built using Spring Boot, React JS, PostgreSQL, JWT Authentication and Docker.
+A Full Stack Employee Management System built using Spring Boot, React JS, PostgreSQL, JWT Authentication and Docker.
+
+---
 
 ## Live Application
-Frontend:
-Frontend: https://employee-management-frontend-gilt-three.vercel.app/
 
-Backend API:
+### Frontend
+https://your-vercel-url.vercel.app
+
+### Backend API
 https://employee-management-backend-qmiw.onrender.com
 
-Swagger:
-[https://your-render-url.onrender.com/swagger-ui/index.html](https://employee-management-backend-qmiw.onrender.com/swagger-ui/index.html)
+### Swagger Documentation
+https://employee-management-backend-qmiw.onrender.com/swagger-ui/index.html
 
+---
 
-2. Architecture Diagram
+## Project Overview
+
+Employee Management System is a full-stack web application developed to manage employee information efficiently.
+
+The application provides secure authentication, employee management, search and filtering capabilities, role-based authorization, dashboard statistics, API documentation, and deployment to a live production environment.
+
+The project follows a modern architecture using React JS as the frontend, Spring Boot REST APIs as the backend, PostgreSQL as the database, and cloud deployment using Vercel, Render, and Supabase.
+
+---
+
+## Architecture Diagram
+
+![Architecture](docs/architecture.png)
+
+### Application Flow
+
 React JS (Vercel)
-        ↓
+
+↓
+
 Spring Boot REST API (Render)
-        ↓
+
+↓
+
 PostgreSQL Database (Supabase)
 
-You can create a diagram image and include it.
+---
 
+## Key Highlights
 
-3. Features
+- Developed Full Stack Employee Management System
+- Implemented JWT Authentication & Authorization
+- Implemented Role Based Access Control (ADMIN / EMPLOYEE)
+- Developed Employee CRUD Operations
+- Implemented Search, Filter and Sorting Functionality
+- Implemented Pagination for Large Datasets
+- Implemented Dashboard Statistics API
+- Implemented Global Exception Handling
+- Implemented Logging using SLF4J
+- Integrated Swagger/OpenAPI Documentation
+- Deployed Frontend on Vercel
+- Deployed Backend on Render using Docker
+- Integrated PostgreSQL Database hosted on Supabase
+
+---
+
 ## Features
 
+### Authentication
+
 - JWT Authentication
-- Role Based Access Control
-- Employee CRUD
-- Search Employees
-- Filter Employees
-- Sorting
+- Login & Logout
+- Protected Routes
+- Token-Based Authorization
+
+### Employee Management
+
+- Create Employee
+- View Employee
+- Update Employee
+- Delete Employee
+
+### Search & Filtering
+
+- Search by Name
+- Search by Email
+- Search by Department
+- Search by Designation
+
+### Sorting
+
+- Employee Code
+- First Name
+- Last Name
+- Joining Date
+- Salary
+
+### Dashboard
+
+- Total Employees
+- Active Employees
+- Inactive Employees
+- Department Statistics
+
+### Other Features
+
 - Pagination
 - Global Exception Handling
 - Swagger Documentation
 - Logging
 - Responsive UI
 
-4. Tech Stack
+---
+
 ## Tech Stack
 
-Frontend
+### Frontend
+
 - React JS
 - Material UI
 - Axios
+- React Router
 
-Backend
+### Backend
+
+- Java 17
 - Spring Boot
 - Spring Security
 - JWT
-- JPA/Hibernate
+- JPA / Hibernate
+- Maven
 
-Database
-- PostgreSQL (Supabase)
+### Database
 
-Deployment
+- PostgreSQL
+- Supabase
+
+### Deployment
+
 - Vercel
 - Render
+- Docker
 
-5. Screenshots
+---
 
-Add:
+## Screenshots
 
-## Login Page
+### Login Page
 
-![Login](docs/login-page.png)
+![Login Page](docs/login-page.png)
 
-## Dashboard
+---
+
+### Dashboard
 
 ![Dashboard](docs/dashboard.png)
 
-## Employee List
+---
+
+### Employee List
 
 ![Employee List](docs/employee-list.png)
 
+---
 
-6. Source Code Links
+### Add Employee
+
+![Add Employee](docs/add-employee.png)
+
+---
+
+### Edit Employee
+
+![Edit Employee](docs/edit-employee.png)
+
+---
+
+### Employee Details
+
+![Employee Details](docs/view-employee.png)
+
+---
+
+### Swagger Documentation
+
+![Swagger](docs/swagger-ui.png)
+
+---
+
+## Demo Credentials
+
+### Administrator
+
+Username:
+admin
+
+Password:
+admin123
+
+### Employee
+
+Username:
+employee
+
+Password:
+employee123
+
+> Note:
+> Demo credentials are provided only for project evaluation purposes.
+
+---
+
 ## Source Code
 
-Frontend:
+### Frontend Repository
+
 https://github.com/venkyslm/employee-management-frontend
 
-Backend:
+### Backend Repository
+
 https://github.com/venkyslm/employee-management-backend
 
+---
 
+## Deployment Architecture
 
+Frontend (Vercel)
+
+↓
+
+Backend API (Render)
+
+↓
+
+PostgreSQL Database (Supabase)
+
+---
+
+## How to Run Locally
+
+### Backend
+
+```bash
+git clone https://github.com/venkyslm/employee-management-backend.git
+
+cd employee-management-backend
+
+mvn clean install
+
+mvn spring-boot:run
+```
+
+Backend runs on:
+
+```text
+http://localhost:8080
+```
+
+### Frontend
+
+```bash
+git clone https://github.com/venkyslm/employee-management-frontend.git
+
+cd employee-management-frontend
+
+npm install
+
+npm run dev
+```
+
+Frontend runs on:
+
+```text
+http://localhost:5173
+```
+
+---
+
+## Future Enhancements
+
+- Employee Profile Picture Upload
+- Email Notifications
+- Export Employee Reports
+- Advanced Dashboard Analytics
+- Audit Logging
+- Password Reset Functionality
+
+---
+
+## Author
+
+**Venkatesan M**
+
+Full Stack Java Developer
+
+LinkedIn:
+https://www.linkedin.com/in/your-linkedin-profile
+
+GitHub:
+https://github.com/venkyslm
+
+---
+
+## License
+
+This project is developed for learning, portfolio and demonstration purposes.
