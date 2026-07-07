@@ -5,7 +5,7 @@ A full-stack Employee Management System built using Spring Boot, React JS, Postg
 
 ## Live Application
 Frontend:
-Frontend: [https://your-vercel-url.vercel.app](https://employee-management-frontend-gilt-three.vercel.app/login)
+Frontend: https://employee-management-frontend-gilt-three.vercel.app/login
 
 Backend API:
 https://employee-management-backend-qmiw.onrender.com
