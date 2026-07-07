@@ -1,13 +1,11 @@
 # Employee Management System
-
 A Full Stack Employee Management System built using Spring Boot, React JS, PostgreSQL, JWT Authentication and Docker.
 
 ---
 
 ## Live Application
-
 ### Frontend
-https://your-vercel-url.vercel.app
+https://employee-management-frontend-gilt-three.vercel.app/
 
 ### Backend API
 https://employee-management-backend-qmiw.onrender.com
@@ -18,7 +16,6 @@ https://employee-management-backend-qmiw.onrender.com/swagger-ui/index.html
 ---
 
 ## Project Overview
-
 Employee Management System is a full-stack web application developed to manage employee information efficiently.
 
 The application provides secure authentication, employee management, search and filtering capabilities, role-based authorization, dashboard statistics, API documentation, and deployment to a live production environment.
@@ -32,21 +29,15 @@ The project follows a modern architecture using React JS as the frontend, Spring
 ![Architecture](docs/architecture.png)
 
 ### Application Flow
-
 React JS (Vercel)
-
 ↓
-
 Spring Boot REST API (Render)
-
 ↓
-
 PostgreSQL Database (Supabase)
 
 ---
 
 ## Key Highlights
-
 - Developed Full Stack Employee Management System
 - Implemented JWT Authentication & Authorization
 - Implemented Role Based Access Control (ADMIN / EMPLOYEE)
@@ -64,30 +55,25 @@ PostgreSQL Database (Supabase)
 ---
 
 ## Features
-
 ### Authentication
-
 - JWT Authentication
 - Login & Logout
 - Protected Routes
 - Token-Based Authorization
 
 ### Employee Management
-
 - Create Employee
 - View Employee
 - Update Employee
 - Delete Employee
 
 ### Search & Filtering
-
 - Search by Name
 - Search by Email
 - Search by Department
 - Search by Designation
 
 ### Sorting
-
 - Employee Code
 - First Name
 - Last Name
@@ -95,14 +81,12 @@ PostgreSQL Database (Supabase)
 - Salary
 
 ### Dashboard
-
 - Total Employees
 - Active Employees
 - Inactive Employees
 - Department Statistics
 
 ### Other Features
-
 - Pagination
 - Global Exception Handling
 - Swagger Documentation
@@ -112,16 +96,13 @@ PostgreSQL Database (Supabase)
 ---
 
 ## Tech Stack
-
 ### Frontend
-
 - React JS
 - Material UI
 - Axios
 - React Router
 
 ### Backend
-
 - Java 17
 - Spring Boot
 - Spring Security
@@ -130,12 +111,10 @@ PostgreSQL Database (Supabase)
 - Maven
 
 ### Database
-
 - PostgreSQL
 - Supabase
 
 ### Deployment
-
 - Vercel
 - Render
 - Docker
@@ -143,7 +122,6 @@ PostgreSQL Database (Supabase)
 ---
 
 ## Screenshots
-
 ### Login Page
 
 ![Login Page](docs/login-page.png)
@@ -151,58 +129,43 @@ PostgreSQL Database (Supabase)
 ---
 
 ### Dashboard
-
 ![Dashboard](docs/dashboard.png)
 
 ---
 
 ### Employee List
-
 ![Employee List](docs/employee-list.png)
 
 ---
 
 ### Add Employee
-
 ![Add Employee](docs/add-employee.png)
 
 ---
 
 ### Edit Employee
-
 ![Edit Employee](docs/edit-employee.png)
 
 ---
 
 ### Employee Details
-
 ![Employee Details](docs/view-employee.png)
 
 ---
 
 ### Swagger Documentation
-
 ![Swagger](docs/swagger-ui.png)
 
 ---
 
 ## Demo Credentials
-
 ### Administrator
-
-Username:
-admin
-
-Password:
-admin123
+Username: admin
+Password: admin123
 
 ### Employee
-
-Username:
-employee
-
-Password:
-employee123
+Username: employee
+Password: employee123
 
 > Note:
 > Demo credentials are provided only for project evaluation purposes.
@@ -210,65 +173,46 @@ employee123
 ---
 
 ## Source Code
-
 ### Frontend Repository
-
 https://github.com/venkyslm/employee-management-frontend
 
 ### Backend Repository
-
 https://github.com/venkyslm/employee-management-backend
 
 ---
 
 ## Deployment Architecture
-
 Frontend (Vercel)
-
 ↓
-
 Backend API (Render)
-
 ↓
-
 PostgreSQL Database (Supabase)
 
 ---
 
 ## How to Run Locally
-
 ### Backend
-
 ```bash
 git clone https://github.com/venkyslm/employee-management-backend.git
-
 cd employee-management-backend
-
 mvn clean install
-
 mvn spring-boot:run
 ```
 
 Backend runs on:
-
 ```text
 http://localhost:8080
 ```
 
 ### Frontend
-
 ```bash
 git clone https://github.com/venkyslm/employee-management-frontend.git
-
 cd employee-management-frontend
-
 npm install
-
 npm run dev
 ```
 
 Frontend runs on:
-
 ```text
 http://localhost:5173
 ```
@@ -276,7 +220,6 @@ http://localhost:5173
 ---
 
 ## Future Enhancements
-
 - Employee Profile Picture Upload
 - Email Notifications
 - Export Employee Reports
@@ -287,9 +230,7 @@ http://localhost:5173
 ---
 
 ## Author
-
 **Venkatesan M**
-
 Full Stack Java Developer
 
 LinkedIn:
@@ -301,5 +242,5 @@ https://github.com/venkyslm
 ---
 
 ## License
-
 This project is developed for learning, portfolio and demonstration purposes.
+
