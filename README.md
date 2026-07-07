@@ -3,11 +3,15 @@
 
 A full-stack Employee Management System built using Spring Boot, React JS, PostgreSQL, JWT Authentication and Docker.
 
-Live Demo:
-Frontend: https://your-vercel-url.vercel.app
+## Live Application
+Frontend:
+Frontend: [https://your-vercel-url.vercel.app](https://employee-management-frontend-gilt-three.vercel.app/login)
 
-Backend Swagger:
-https://your-render-url.onrender.com/swagger-ui/index.html
+Backend API:
+https://employee-management-backend-qmiw.onrender.com
+
+Swagger:
+[https://your-render-url.onrender.com/swagger-ui/index.html](https://employee-management-backend-qmiw.onrender.com/swagger-ui/index.html)
 
 
 2. Architecture Diagram
