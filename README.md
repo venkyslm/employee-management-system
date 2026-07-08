@@ -4,11 +4,16 @@ A Full Stack Employee Management System built using Spring Boot, React JS, Postg
 ---
 
 ## Live Application
-### Frontend : https://employee-management-frontend-gilt-three.vercel.app/
+### Frontend : 
+https://employee-management-frontend-gilt-three.vercel.app/
 
-### Backend API : https://employee-management-backend-qmiw.onrender.com
+### Backend API : 
+https://employee-management-backend-qmiw.onrender.com
 
-### Swagger Documentation :https://employee-management-backend-qmiw.onrender.com/swagger-ui/index.html
+### Swagger Documentation :
+https://employee-management-backend-qmiw.onrender.com/swagger-ui/index.html
+<img width="97" height="30" alt="image" src="https://github.com/user-attachments/assets/bc00ffc4-655c-46af-8745-4a109da38b99" />
+
 ---
 
 ## Project Overview
