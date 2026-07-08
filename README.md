@@ -201,33 +201,61 @@ PostgreSQL Database (Supabase)
 
 ---
 
-## How to Run Locally
+## 🚀 How to Run Locally
 ### Backend
+
 ```bash
 git clone https://github.com/venkyslm/employee-management-backend.git
 cd employee-management-backend
+```
+
+Configure environment variables:
+```properties
+DB_URL=your_database_url
+DB_USERNAME=your_username
+DB_PASSWORD=your_password
+JWT_SECRET=your_jwt_secret
+```
+
+Run:
+```bash
 mvn clean install
 mvn spring-boot:run
 ```
 
-Backend runs on:
+Backend:
 ```text
 http://localhost:8080
 ```
+
+Swagger:
+```text
+http://localhost:8080/swagger-ui/index.html
+```
+
+---
 
 ### Frontend
 ```bash
 git clone https://github.com/venkyslm/employee-management-frontend.git
 cd employee-management-frontend
 npm install
+```
+
+Create `.env`:
+```properties
+VITE_API_BASE_URL=http://localhost:8080/api
+```
+
+Run:
+```bash
 npm run dev
 ```
 
-Frontend runs on:
+Frontend:
 ```text
 http://localhost:5173
 ```
-
 ---
 
 ## Future Enhancements
