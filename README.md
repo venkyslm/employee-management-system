@@ -283,7 +283,7 @@ http://localhost:5173
 Full Stack Java Developer
 
 LinkedIn:
-https://www.linkedin.com/in/your-linkedin-profile
+[https://www.linkedin.com/in/your-linkedin-profile](https://www.linkedin.com/in/venkatesan-java-developer/)
 
 GitHub:
 https://github.com/venkyslm
