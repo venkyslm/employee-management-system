@@ -7,7 +7,6 @@
 ![Docker](https://img.shields.io/badge/Docker-Containerization-blue)
 ![Render](https://img.shields.io/badge/Backend-Render-purple)
 ![Vercel](https://img.shields.io/badge/Frontend-Vercel-black)
-![License](https://img.shields.io/badge/License-MIT-green)
 
 A Full Stack Employee Management System built using Spring Boot, React JS, PostgreSQL, JWT Authentication and Docker.
 
@@ -25,6 +24,24 @@ https://employee-management-backend-qmiw.onrender.com/swagger-ui/index.html
 
 ---
 
+## Demo Credentials
+### Admin
+```text
+Username: admin_user
+Password: password123
+```
+
+### Employee
+```text
+Username: emp_user
+Password: password123
+```
+
+> Note:
+> Demo credentials are provided only for project evaluation purposes.
+
+---
+
 ## Project Overview
 Employee Management System is a full-stack web application developed to manage employee information efficiently.
 
@@ -36,7 +53,7 @@ The project follows a modern architecture using React JS as the frontend, Spring
 
 ## Architecture Diagram
 
-![Architecture](docs/architecture.png)
+![Employee Management System Architecture](docs/architecture.png)
 
 ### Application Flow
 React JS (Vercel)
@@ -179,20 +196,6 @@ PostgreSQL Database (Supabase)
 
 ---
 
-## Demo Credentials
-### Administrator
-Username: admin
-Password: admin123
-
-### Employee
-Username: employee
-Password: employee123
-
-> Note:
-> Demo credentials are provided only for project evaluation purposes.
-
----
-
 ## Source Code
 ### Frontend Repository
 https://github.com/venkyslm/employee-management-frontend
@@ -268,25 +271,12 @@ http://localhost:5173
 ```
 ---
 
-## Future Enhancements
-- Employee Profile Picture Upload
-- Email Notifications
-- Export Employee Reports
-- Advanced Dashboard Analytics
-- Audit Logging
-- Password Reset Functionality
-
----
-
 ## Author
 **Venkatesan M**
 Full Stack Java Developer
 
-LinkedIn:
-[https://www.linkedin.com/in/your-linkedin-profile](https://www.linkedin.com/in/venkatesan-java-developer/)
-
-GitHub:
-https://github.com/venkyslm
+- LinkedIn: https://www.linkedin.com/in/venkatesan-java-developer/
+- GitHub: https://github.com/venkyslm
 
 ---
 
