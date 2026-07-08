@@ -1,4 +1,14 @@
 # Employee Management System
+
+![Spring Boot](https://img.shields.io/badge/Spring_Boot-3.x-green)
+![React](https://img.shields.io/badge/React-19-blue)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-Database-blue)
+![JWT](https://img.shields.io/badge/JWT-Authentication-orange)
+![Docker](https://img.shields.io/badge/Docker-Containerization-blue)
+![Render](https://img.shields.io/badge/Backend-Render-purple)
+![Vercel](https://img.shields.io/badge/Frontend-Vercel-black)
+![License](https://img.shields.io/badge/License-MIT-green)
+
 A Full Stack Employee Management System built using Spring Boot, React JS, PostgreSQL, JWT Authentication and Docker.
 
 ---
