@@ -12,7 +12,6 @@ https://employee-management-backend-qmiw.onrender.com
 
 ### Swagger Documentation :
 https://employee-management-backend-qmiw.onrender.com/swagger-ui/index.html
-<img width="97" height="30" alt="image" src="https://github.com/user-attachments/assets/bc00ffc4-655c-46af-8745-4a109da38b99" />
 
 ---
 
