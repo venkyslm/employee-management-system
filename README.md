@@ -120,37 +120,48 @@ PostgreSQL Database (Supabase)
 ## Screenshots
 ### Login Page
 
-![Login Page](docs/login-page.png)
+![Login Page](screenshots/login-page.png)
 
 ---
 
 ### Dashboard
-![Dashboard](docs/dashboard.png)
+![Dashboard](screenshots/dashboard.png)
 
 ---
 
 ### Employee List
-![Employee List](docs/employee-list.png)
+![Employee List](screenshots/employee-list.png)
 
 ---
 
 ### Add Employee
-![Add Employee](docs/add-employee.png)
+![Add Employee](screenshots/add-employee.png)
 
 ---
 
 ### Edit Employee
-![Edit Employee](docs/edit-employee.png)
+![Edit Employee](screenshots/edit-employee.png)
 
 ---
 
 ### Employee Details
-![Employee Details](docs/view-employee.png)
+![View Employee](screenshots/view-employee.png)
 
 ---
 
 ### Swagger Documentation
-![Swagger](docs/swagger-ui.png)
+### Authentication APIs
+
+![Swagger Auth](screenshots/swagger-ui-1.png)
+
+### Employee APIs
+
+![Swagger Employee](screenshots/swagger-ui-2.png)
+
+
+## Dark Mode Support
+
+![Dark Mode Dashboard](screenshots/dark-mode-dashboard.png)
 
 ---
 
